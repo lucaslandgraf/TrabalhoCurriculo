@@ -1,0 +1,47 @@
+body{
+    background-color: #004d88;
+    font-family: monospace;
+    color: #00c2ff
+}
+
+.topo{
+    color: #00c2ff;
+    border-bottom: solid;
+    text-align: center;
+    justify-content: center;
+}
+
+.secoes-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1%;
+    border-bottom: solid;
+    margin-bottom: 2%;
+}
+
+.secoes a{
+    flex: 1;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #00c2ff;
+
+}
+
+.secoes :hover{
+    color: white;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img{
+    margin: 0 10px;
+    width: 40%;
+}
+
+#resumo, #experiencia, #formacao, #certificacao, #competencia, #contato{
+    margin-bottom: 2%;
+}
