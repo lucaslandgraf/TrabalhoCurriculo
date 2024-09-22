@@ -1,44 +1,47 @@
 body{
-    background-color: aquamarine;
+    background-color: #004d88;
     font-family: monospace;
-    color: black
+    color: #00c2ff
 }
 
-.secoes {
-    color: black;
+.topo{
+    color: #00c2ff;
     border-bottom: solid;
+    text-align: center;
+    justify-content: center;
+}
 
+.secoes-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1%;
+    border-bottom: solid;
+    margin-bottom: 2%;
 }
 
 .secoes a{
+    flex: 1;
+    margin-right: 20px;
     text-decoration: none;
-    color: black;
+    color: #00c2ff;
+
 }
 
 .secoes :hover{
     color: white;
 }
 
-.secoes h3 {
-    display: inline-block;
-    margin-right: 5%;
-    margin-left: 4%;
-    padding: 1%;
-    
-}
-
-.topo {
-    color: black;
-    border-bottom: solid;
-}
-
-.linha{
-    text-align: center;
-}
-
 .imagens {
-    display: inline-block;
-    margin-right: 2%;
-    padding: 1%;
-    width: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img{
+    margin: 0 10px;
+    width: 40%;
+}
+
+#resumo, #experiencia, #formacao, #certificacao, #competencia, #contato{
+    margin-bottom: 2%;
 }
